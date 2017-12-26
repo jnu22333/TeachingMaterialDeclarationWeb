@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>修改审批</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/修改审批_1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/修改审批_1/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u904" class="ax_default droplist">
+        <select id="u904_input">
+          <option value="空">空</option>
+          <option value="全选">全选</option>
+          <option value="通识选修">通识选修</option>
+          <option value="电气信息学院">电气信息学院</option>
+          <option value="翻译学院">翻译学院</option>
+          <option value="人文学院">人文学院</option>
+          <option value="国际商学院">国际商学院</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u905" class="ax_default text_field">
+        <input id="u905_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u906" class="ax_default button">
+        <div id="u906_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u907" class="text">
+          <p><span>搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u908" class="ax_default label">
+        <div id="u908_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u909" class="text">
+          <p><span>学院：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u910" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u911" class="ax_default table_cell">
+          <img id="u911_img" class="img " src="images/修改审批/u692.png"/>
+          <!-- Unnamed () -->
+          <div id="u912" class="text">
+            <p><span>教师</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u913" class="ax_default table_cell">
+          <img id="u913_img" class="img " src="images/修改审批/u694.png"/>
+          <!-- Unnamed () -->
+          <div id="u914" class="text">
+            <p><span>课程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u915" class="ax_default table_cell">
+          <img id="u915_img" class="img " src="images/修改审批/u696.png"/>
+          <!-- Unnamed () -->
+          <div id="u916" class="text">
+            <p><span>教材</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u917" class="ax_default table_cell">
+          <img id="u917_img" class="img " src="images/修改审批/u698.png"/>
+          <!-- Unnamed () -->
+          <div id="u918" class="text">
+            <p><span>审批结果</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u919" class="ax_default table_cell">
+          <img id="u919_img" class="img " src="images/修改审批/u692.png"/>
+          <!-- Unnamed () -->
+          <div id="u920" class="text">
+            <p><span>教1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u921" class="ax_default table_cell">
+          <img id="u921_img" class="img " src="images/修改审批/u694.png"/>
+          <!-- Unnamed () -->
+          <div id="u922" class="text">
+            <p><span>课1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u923" class="ax_default table_cell">
+          <img id="u923_img" class="img " src="images/修改审批/u696.png"/>
+          <!-- Unnamed () -->
+          <div id="u924" class="text">
+            <p><span>教材1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u925" class="ax_default table_cell">
+          <img id="u925_img" class="img " src="images/修改审批/u698.png"/>
+          <!-- Unnamed () -->
+          <div id="u926" class="text">
+            <p><span>不合理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u927" class="ax_default table_cell">
+          <img id="u927_img" class="img " src="images/修改审批/u708.png"/>
+          <!-- Unnamed () -->
+          <div id="u928" class="text">
+            <p><span>教2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u929" class="ax_default table_cell">
+          <img id="u929_img" class="img " src="images/管理课程安排/u261.png"/>
+          <!-- Unnamed () -->
+          <div id="u930" class="text">
+            <p><span>课2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u931" class="ax_default table_cell">
+          <img id="u931_img" class="img " src="images/修改审批/u712.png"/>
+          <!-- Unnamed () -->
+          <div id="u932" class="text">
+            <p><span>教材2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u933" class="ax_default table_cell">
+          <img id="u933_img" class="img " src="images/管理课程安排/u269.png"/>
+          <!-- Unnamed () -->
+          <div id="u934" class="text">
+            <p><span>不合理</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u935" class="ax_default button">
+        <div id="u935_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u936" class="text">
+          <p><span>合理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u937" class="ax_default button">
+        <div id="u937_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u938" class="text">
+          <p><span>合理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u939" class="ax_default button">
+        <div id="u939_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u940" class="text">
+          <p><span>不合理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u941" class="ax_default button">
+        <div id="u941_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u942" class="text">
+          <p><span>不合理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u943" class="ax_default button">
+        <div id="u943_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u944" class="text">
+          <p><span>合理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u945" class="ax_default button">
+        <div id="u945_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u946" class="text">
+          <p><span>不合理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u947" class="ax_default label">
+        <div id="u947_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u948" class="text">
+          <p><span>批量处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (提交按钮) -->
+      <div id="u949" class="ax_default html_button">
+        <input id="u949_input" type="submit" value="提交"/>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u950" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u951" class="ax_default table_cell">
+          <img id="u951_img" class="img " src="images/修改审批/u692.png"/>
+          <!-- Unnamed () -->
+          <div id="u952" class="text">
+            <p><span>教师</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u953" class="ax_default table_cell">
+          <img id="u953_img" class="img " src="images/修改审批/u694.png"/>
+          <!-- Unnamed () -->
+          <div id="u954" class="text">
+            <p><span>课程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u955" class="ax_default table_cell">
+          <img id="u955_img" class="img " src="images/修改审批/u694.png"/>
+          <!-- Unnamed () -->
+          <div id="u956" class="text">
+            <p><span>教材</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u957" class="ax_default table_cell">
+          <img id="u957_img" class="img " src="images/修改审批/u738.png"/>
+          <!-- Unnamed () -->
+          <div id="u958" class="text">
+            <p><span>审批结果</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u959" class="ax_default table_cell">
+          <img id="u959_img" class="img " src="images/修改审批/u692.png"/>
+          <!-- Unnamed () -->
+          <div id="u960" class="text">
+            <p><span>教1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u961" class="ax_default table_cell">
+          <img id="u961_img" class="img " src="images/修改审批/u694.png"/>
+          <!-- Unnamed () -->
+          <div id="u962" class="text">
+            <p><span>课1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u963" class="ax_default table_cell">
+          <img id="u963_img" class="img " src="images/修改审批/u694.png"/>
+          <!-- Unnamed () -->
+          <div id="u964" class="text">
+            <p><span>教材1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u965" class="ax_default table_cell">
+          <img id="u965_img" class="img " src="images/修改审批/u738.png"/>
+          <!-- Unnamed () -->
+          <div id="u966" class="text">
+            <p><span>合理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u967" class="ax_default table_cell">
+          <img id="u967_img" class="img " src="images/修改审批/u708.png"/>
+          <!-- Unnamed () -->
+          <div id="u968" class="text">
+            <p><span>教2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u969" class="ax_default table_cell">
+          <img id="u969_img" class="img " src="images/管理课程安排/u261.png"/>
+          <!-- Unnamed () -->
+          <div id="u970" class="text">
+            <p><span>课2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u971" class="ax_default table_cell">
+          <img id="u971_img" class="img " src="images/管理课程安排/u261.png"/>
+          <!-- Unnamed () -->
+          <div id="u972" class="text">
+            <p><span>教材2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u973" class="ax_default table_cell">
+          <img id="u973_img" class="img " src="images/修改审批/u754.png"/>
+          <!-- Unnamed () -->
+          <div id="u974" class="text">
+            <p><span>合理</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u975" class="ax_default checkbox">
+        <label for="u975_input">
+          <!-- Unnamed () -->
+          <div id="u976" class="text">
+            <p><span>全选</span></p>
+          </div>
+        </label>
+        <input id="u975_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u977" class="ax_default checkbox">
+        <label for="u977_input">
+          <!-- Unnamed () -->
+          <div id="u978" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u977_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u979" class="ax_default checkbox">
+        <label for="u979_input">
+          <!-- Unnamed () -->
+          <div id="u980" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u979_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u981" class="ax_default label">
+        <div id="u981_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u982" class="text">
+          <p><span>合理目录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u983" class="ax_default checkbox">
+        <label for="u983_input">
+          <!-- Unnamed () -->
+          <div id="u984" class="text">
+            <p><span>全选</span></p>
+          </div>
+        </label>
+        <input id="u983_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u985" class="ax_default checkbox">
+        <label for="u985_input">
+          <!-- Unnamed () -->
+          <div id="u986" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u985_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u987" class="ax_default checkbox">
+        <label for="u987_input">
+          <!-- Unnamed () -->
+          <div id="u988" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u987_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u989" class="ax_default label">
+        <div id="u989_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u990" class="text">
+          <p><span>不合理目录</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
